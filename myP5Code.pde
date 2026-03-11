@@ -8,6 +8,18 @@ setup = function() {
     text("🍽", i, 370)
   }
 
+  var myFruits = [ "🍓", "🍉", "🍇"]; 
+
+// myFruits[0]
+fill(255, 255, 255)
+text(myFruits[0], 100, 50);
+text(myFruits[1], 150, 50);
+text(myFruits[2], 200, 50);
+
+fill(0, 0, 0)
+text("My top " + myFruits.length + " favorite fruits", 50, 170 );
+
+
 
 };
 
